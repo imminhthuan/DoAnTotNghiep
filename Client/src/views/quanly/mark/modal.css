@@ -1,0 +1,61 @@
+/* Modal */
+.modalthem .modal-dialog {
+    max-width: 550px; /* Điều chỉnh chiều rộng modal */
+}
+
+.modalthem .modal-content {
+    padding: 20px; /* Để tăng khoảng cách nội dung với viền modal */
+}
+
+/* Các trường input điểm */
+.modalthem .modal-body table {
+    width: 100%; /* Để bảng điểm chiếm toàn bộ chiều rộng của modal */
+}
+
+.modalthem .modal-body table select,
+.modalthem .modal-body table input[type="number"] {
+    width: 100%; /* Để các trường input chiếm toàn bộ chiều rộng của cell */
+    padding: 8px; /* Để tăng khoảng cách giữa nội dung và viền của input */
+    border: 1px solid #ccc; /* Để tạo viền xung quanh input */
+    border-radius: 4px; /* Để bo tròn góc của input */
+}
+
+/* Nút đóng modal */
+.modalthem .modal-footer .btn-secondary {
+    padding: 6px 10px; /* Để làm cho nút đóng trông rộng hơn và dễ nhìn hơn */
+}
+
+.modalthem  .modal-footer {
+    display: flex;
+    justify-content: space-between; /* Căn các phần tử sang hai bên */
+    align-items: center; /* Căn các phần tử theo chiều dọc */
+}
+
+.modalthem  .modal-footer .pagination {
+    margin-right: auto; /* Đẩy phân trang về phía trái cùng */
+}
+
+
+.modalthem .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 69, 69, 0.5); /* Nền mờ đen */
+    z-index: 1060; /* Đảm bảo backdrop hiển thị phía sau modal */
+  }
+
+  .modal-footer {
+    display: flex;
+    /* Căn các phần tử sang hai bên */
+    align-items: center; /* Căn các phần tử theo chiều dọc */
+}
+
+.modal-footer .pagination {
+    margin-right: auto; /* Đẩy phân trang về phía trái cùng */
+}
+
+
+
+

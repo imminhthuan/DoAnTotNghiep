@@ -1,0 +1,268 @@
+.student-info {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn.adds-newss {
+  background-color: #f1d00f; /* Màu nền */
+  color: rgb(12, 10, 10); /* Màu chữ */
+  border: none; /* Bỏ đường viền */
+  padding: 8px 16px; /* Đệm trong */
+  font-size: 14px; /* Kích thước chữ */
+  cursor: pointer; /* Con trỏ chuột khi hover */
+  border-radius: 4px; /* Bo góc */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+  height: 38px; /* Chiều cao của nút để phù hợp với thanh tìm kiếm */
+  display: flex;
+  align-items: center; /* Căn chỉnh nội dung nút theo chiều dọc */
+  justify-content: center; /* Căn chỉnh nội dung nút theo chiều ngang */
+  line-height: normal; /* Đặt line-height về bình thường */
+  white-space: nowrap; /* Không ngắt dòng chữ */
+}
+
+.btn.add-newss {
+  background-color: #0dac15; /* Màu nền */
+  color: white; /* Màu chữ */
+  border: none; /* Bỏ đường viền */
+  padding: 8px 16px; /* Đệm trong */
+  font-size: 14px; /* Kích thước chữ */
+  cursor: pointer; /* Con trỏ chuột khi hover */
+  border-radius: 4px; /* Bo góc */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+  height: 38px; /* Chiều cao của nút để phù hợp với thanh tìm kiếm */
+  display: flex;
+  align-items: center; /* Căn chỉnh nội dung nút theo chiều dọc */
+  justify-content: center; /* Căn chỉnh nội dung nút theo chiều ngang */
+  line-height: normal; /* Đặt line-height về bình thường */
+  white-space: nowrap; /* Không ngắt dòng chữ */
+}
+
+.student-info p {
+    margin-bottom: 10px;
+}
+
+.student-info strong {
+    color: #333;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: 1px solid #e9ecef;
+    padding: 10px 20px;
+}
+
+
+/* CSS */
+.info-item {
+    background-color: #ffffff; 
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .info-item p {
+    color: #000; /* Màu chữ đen */
+    font-weight: bold;
+    margin: 0;
+  }
+
+
+  /* CSS */
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    vertical-align: middle;
+  }
+  
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 2px;
+  }
+  
+  .table-dark {
+    color: inherit;
+  }
+  
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th,
+  .table-dark tbody + tbody {
+    border-color: #dee2e6;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .table-primary,
+  .table-primary > th,
+  .table-primary > td {
+    background-color: #b8daff;
+  }
+  
+  .table-hover .table-primary:hover {
+    background-color: #9fcdff;
+  }
+  
+  .table-primary th,
+  .table-primary td,
+  .table-primary thead th,
+  .table-primary tbody + tbody {
+    border-color: #7abaff;
+  }
+  
+  .table-secondary,
+  .table-secondary > th,
+  .table-secondary > td {
+    background-color: #d6d8db;
+  }
+  
+  .table-hover .table-secondary:hover {
+    background-color: #c8cbcf;
+  }
+  
+  .table-secondary th,
+  .table-secondary td,
+  .table-secondary thead th,
+  .table-secondary tbody + tbody {
+    border-color: #b3b7bb;
+  }
+  
+  .table-success,
+  .table-success > th,
+  .table-success > td {
+    background-color: #c3e6cb;
+  }
+  
+  .table-hover .table-success:hover {
+    background-color: #b1dfbb;
+  }
+  
+  .table-success th,
+  .table-success td,
+  .table-success thead th,
+  .table-success tbody + tbody {
+    border-color: #8fd19e;
+  }
+  
+  .table-info,
+  .table-info > th,
+  .table-info > td {
+    background-color: #bee5eb;
+  }
+  
+  .table-hover .table-info:hover {
+    background-color: #abdde5;
+  }
+  
+  .table-info th,
+  .table-info td,
+  .table-info thead th,
+  .table-info tbody + tbody {
+    border-color: #86cfda;
+  }
+  
+  .table-warning,
+  .table-warning > th,
+  .table-warning > td {
+    background-color: #ffeeba;
+  }
+  
+  .table-hover .table-warning:hover {
+    background-color: #ffe8a1;
+  }
+  
+  .table-warning th,
+  .table-warning td,
+  .table-warning thead th,
+  .table-warning tbody + tbody {
+    border-color: #ffdf7e;
+  }
+  
+  .table-danger,
+  .table-danger > th,
+  .table-danger > td {
+    background-color: #f5c6cb;
+  }
+  
+  .table-hover .table-danger:hover {
+    background-color: #f1b0b7;
+  }
+  
+  .table-danger th,
+  .table-danger td,
+  .table-danger thead th,
+  .table-danger tbody + tbody {
+    border-color: #ed969e;
+  }
+  
+  .table-light,
+  .table-light > th,
+  .table-light > td {
+    background-color: #fdfdfe;
+  }
+  
+  .table-hover .table-light:hover {
+    background-color: #ececf6;
+  }
+  
+  .table-light th,
+  .table-light td,
+  .table-light thead th,
+  .table-light tbody + tbody {
+    border-color: #ececf6;
+  }
+  
+  .table-dark,
+  .table-dark > th,
+  .table-dark > td {
+    background-color: #c6c8ca;
+  }
+  
+  .table-hover .table-dark:hover {
+    background-color: #b9bbbe;
+  }
+  
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th,
+  .table-dark tbody + tbody {
+    border-color: #95999c;
+  }
+  
+  .table-active,
+  .table-active > th,
+  .table-active > td {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .table-hover .table-active:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .table-hover .table-light:hover {
+    background-color: #ececf6;
+  }
+  

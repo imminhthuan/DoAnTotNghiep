@@ -1,0 +1,16 @@
+.btn.add-newss {
+    background-color: #0dac15; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Bỏ đường viền */
+    padding: 8px 16px; /* Đệm trong */
+    font-size: 14px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    border-radius: 4px; /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+    height: 38px; /* Chiều cao của nút để phù hợp với thanh tìm kiếm */
+    display: flex;
+    align-items: center; /* Căn chỉnh nội dung nút theo chiều dọc */
+    justify-content: center; /* Căn chỉnh nội dung nút theo chiều ngang */
+    line-height: normal; /* Đặt line-height về bình thường */
+    white-space: nowrap; /* Không ngắt dòng chữ */
+  }

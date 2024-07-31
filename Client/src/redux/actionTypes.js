@@ -1,0 +1,47 @@
+export const LOGIN = "LOGIN";
+export const REGISTER = "REGISTER";
+export const CHANGEPASSWORD = "CHANGEPASSWORD";
+export const RESETPASSWORD = "RESETPASSWORD";
+export const BYSINHVIENLOGIN = "BYSINHVIENLOGIN";
+export const GETALLDIEMBYSINHVIEN = "GETALLDIEMBYSINHVIEN";
+
+export const GET_ALL_CLASS = "GET_ALL_CLASS";
+export const ADD_CLASS = "ADD_CLASS";
+export const UPDATE_CLASS = "UPDATE_CLASS";
+export const DELETE_CLASS = "DELETE_CLASS";
+
+export const GET_ALL_MARK_SINHVIEN = "GET_ALL_MARK_SINHVIEN";
+export const GET_ALL_MARK_SUBJECT = "GET_ALL_MARK_SUBJECT";
+export const GET_MARK_DTB = "GET_MARK_DTB";
+export const ADD_ALL_STUDENT = "ADD_ALL_STUDENT";
+export const ADD_MARK = "ADD_MARK";
+export const UPDATE_MARK = "UPDATE_MARK";
+export const DELETE_MARK = "DELETE_MARK";
+
+export const GET_ALL_DEPARTMENT = "GET_ALL_DEPARTMENT";
+export const GET_DEPARTMENT = "GET_DEPARTMENT"
+export const ADD_DEPARTMENT = "ADD_DEPARTMENT";
+export const UPDATE_DEPARTMENT = "UPDATE_DEPARTMENT";
+export const DELETE_DEPARTMENT = "DELETE_DEPARTMENT";
+
+export const GET_ALL_MAJOR = "GET_ALL_MAJOR";
+export const GET_MAJOR = "GET_MAJOR";
+export const ADD_MAJOR = "ADD_MAJOR";
+export const UPDATE_MAJOR = "UPDATE_MAJOR";
+export const DELETE_MAJOR = "DELETE_MAJOR"
+
+export const ADD_SUBJECT = "ADD_SUBJECT";
+export const GET_ALL_SUBJECT = "GET_ALL_SUBJECT";
+export const UPDATE_SUBJECT = "UPDATE_SUBJECT";
+export const DELETE_SUBJECT = "DELETE_SUBJECT";
+
+
+export const GET_ALL_STUDENT = "GET_ALL_STUDENT";
+export const ADD_STUDENT = "ADD_STUDENT";
+export const UPDATE_STUDENT = "UPDATE_STUDENT";
+export const DELETE_STUDENT = "DELETE_STUDENT";
+export const SET_ERRORS = 'SET_ERRORS';
+
+
+
+

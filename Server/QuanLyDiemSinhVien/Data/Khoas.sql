@@ -1,0 +1,10 @@
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('ca3b9001-2bce-0fa9-cbc2-1fed07d35f19', 'CNTT', '2024-06-22 00:14:25.195720', '2024-06-22 00:14:25.195728');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bc566-2fee-11ef-91ca-0242ac130002', 'Khoa 1', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bcb81-2fee-11ef-91ca-0242ac130002', 'Khoa 2', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bccbb-2fee-11ef-91ca-0242ac130002', 'Khoa 3', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bcd2d-2fee-11ef-91ca-0242ac130002', 'ANM', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bcd84-2fee-11ef-91ca-0242ac130002', 'Khoa 5', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bcdda-2fee-11ef-91ca-0242ac130002', 'Khoa 6', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bce28-2fee-11ef-91ca-0242ac130002', 'Khoa 7', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bce77-2fee-11ef-91ca-0242ac130002', 'Khoa 8', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');
+INSERT INTO base_core.Khoas (Id, TenKhoa, CreatedAt, UpdatedAt) VALUES ('f53bcec3-2fee-11ef-91ca-0242ac130002', 'Khoa 9', '2024-06-21 16:54:43.000000', '2024-06-21 16:54:43.000000');

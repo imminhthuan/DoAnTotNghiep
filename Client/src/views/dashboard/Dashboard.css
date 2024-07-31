@@ -1,0 +1,21 @@
+/* CSS để cân bằng độ rộng của các bảng */
+.CCard {
+    width: 100%; /* Đảm bảo các thẻ thẻ <CCard> chiếm hết không gian của CCol */
+  }
+  
+  .CTableHead,
+  .CTableBody,
+  .CTableHead > .CTableRow,
+  .CTableBody > .CTableRow {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* Đảm bảo các cột có chiều rộng cố định */
+  }
+  
+  .CTableHead > .CTableRow > .CTableHeaderCell,
+  .CTableBody > .CTableRow > .CTableDataCell {
+    display: table-cell;
+    overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+    text-overflow: ellipsis; /* Để nội dung dài thì có dấu chấm cuối cùng */
+    white-space: nowrap; /* Đảm bảo các nội dung không bị tràn ra ngoài */
+  }

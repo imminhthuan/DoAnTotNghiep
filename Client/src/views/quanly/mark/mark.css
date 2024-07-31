@@ -1,0 +1,153 @@
+.modal-dialog {
+    max-width: 1100px; /* Đặt chiều rộng tối đa */
+}
+
+.modal-content {
+    height: 600px; /* Đặt chiều cao */
+    overflow-y: auto; /* Bật scroll nếu nội dung quá dài */
+}
+
+.modal-header {
+    background-color: #ffffff; /* Màu nền header */
+    color: rgb(0, 0, 0); /* Màu chữ */
+    border-bottom: none; /* Loại bỏ đường viền dưới cùng */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .row {
+  width: 100%;
+}
+
+.modal-header .form-select {
+  width: 38%;
+  display: inline-block;
+}
+
+.modal-header label {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.modal-header .close {
+  margin-left: auto;
+  padding: 1rem;
+}
+
+
+.modal-footer {
+    border-top: none; /* Loại bỏ đường viền trên cùng */
+    padding: 1rem; /* Đệm */
+}
+
+/* Căn chỉnh thanh tìm kiếm và nút thêm điểm */
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .search-input {
+    margin-right: 10px; /* Khoảng cách giữa thanh tìm kiếm và nút */
+    padding: 8px; /* Đệm trong cho thanh tìm kiếm */
+    border-radius: 4px; /* Bo góc */
+    border: 1px solid #ced4da; /* Đường viền */
+    font-size: 14px; /* Kích thước chữ */
+    height: 38px; /* Chiều cao của thanh tìm kiếm để phù hợp với nút */
+  }
+  
+  /* CSS cho nút Thêm Điểm */
+  .btn.add-new {
+    background-color: #007bff; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Bỏ đường viền */
+    padding: 8px 16px; /* Đệm trong */
+    font-size: 14px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    border-radius: 4px; /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+    height: 38px; /* Chiều cao của nút để phù hợp với thanh tìm kiếm */
+    display: flex;
+    align-items: center; /* Căn chỉnh nội dung nút theo chiều dọc */
+    justify-content: center; /* Căn chỉnh nội dung nút theo chiều ngang */
+    line-height: normal; /* Đặt line-height về bình thường */
+    white-space: nowrap; /* Không ngắt dòng chữ */
+  }
+
+  .btn.add-newssss {
+    background-color: #0dac15; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Bỏ đường viền */
+    padding: 8px 16px; /* Đệm trong */
+    font-size: 14px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    border-radius: 4px; /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền */
+    height: 38px; /* Chiều cao của nút để phù hợp với thanh tìm kiếm */
+    display: flex;
+    align-items: center; /* Căn chỉnh nội dung nút theo chiều dọc */
+    justify-content: center; /* Căn chỉnh nội dung nút theo chiều ngang */
+    line-height: normal; /* Đặt line-height về bình thường */
+    white-space: nowrap; /* Không ngắt dòng chữ */
+  }
+  
+  .btn.add-new:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+  }
+  
+
+  .search-combobox {
+    margin-right: 10px; /* Khoảng cách giữa combobox và nút thêm điểm */
+    padding: 8px; /* Đệm trong cho combobox */
+    border-radius: 4px; /* Bo góc */
+    border: 1px solid #ced4da; /* Đường viền */
+    font-size: 14px; /* Kích thước chữ */
+    height: 38px; /* Chiều cao của combobox để phù hợp với nút */
+  }
+
+
+/* CSS để thu nhỏ các thẻ <th> và <td> */
+
+
+/* CSS để thu nhỏ các ô input */
+
+
+
+
+.diem .w-table-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.diem  .w-table {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.diem .small-cellsss{
+  max-width: 10px;
+}
+.diem .small-cells{
+  width: 5px;
+}
+.diem  .small-cellss{
+  max-width: 30px;
+}
+
+
+.diem .small-input {
+  max-width: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  
+  
+  
+  

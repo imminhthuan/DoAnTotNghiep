@@ -1,0 +1,16 @@
+.student-info {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-info p {
+    margin-bottom: 10px;
+}
+
+.student-info strong {
+    color: #333;
+}
